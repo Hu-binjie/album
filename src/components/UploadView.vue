@@ -71,8 +71,6 @@ export default {
     };
   },
   computed: {
-    // 如何写好代码
-    // 1. 表达出意图
     showUploadContainer() {
       return this.wantUploadPhotos.length === 0;
     },

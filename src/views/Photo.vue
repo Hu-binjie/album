@@ -46,7 +46,6 @@ export default {
   },
   methods: {
     handleUploadCompleted() {
-      // 不能有重复
       this.updatePhotos();
     },
 
