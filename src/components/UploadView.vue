@@ -90,12 +90,9 @@ export default {
       // 写上传完成的逻辑
       this.reset();
       // 通知 photo 页面 告诉他我上传完成了
-      // 如何写好代码- 》
-      // 中层次的代码
       this.uploadCompleted();
     },
     uploadCompleted() {
-        // 低层次的代码
       this.$emit("upload-completed");
     },
 
