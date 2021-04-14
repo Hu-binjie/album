@@ -1,5 +1,5 @@
 使用的数据库为mySQL
-
+技术栈：node.js ,  vue-router 
 功能：
 用户登录
 上传图片
