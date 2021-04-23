@@ -12,7 +12,7 @@ export const http = axios.create({
   baseURL: "/api",
 });
 
-// 响应拦截器
+// 响应拦截器 （对请求后，得到的响应数据进行处理）
 http.interceptors.response.use(
   (res) => {
     return res.data;
@@ -29,7 +29,7 @@ http.interceptors.response.use(
   }
 );
 
-// 请求拦截器
+// 请求拦截器 （拦截所有请求，给请求头带上token）
 // token
 http.interceptors.request.use((config) => {
   // 先获取 token
